@@ -7,7 +7,11 @@
     <p class="author">Photo taken by {{ card.author }}</p>
     <p class="description">Description: {{ card.description }}</p>
     <p>
-      <a class="btn btn-external" [href]="card.url" rel="noopener noreferrer"
+      <a
+        class="btn btn-external"
+        [href]="card.url"
+        target="_blank"
+        rel="noopener noreferrer"
         >See the original image</a
       >
     </p>
