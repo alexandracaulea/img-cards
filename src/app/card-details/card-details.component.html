@@ -1,0 +1,16 @@
+<section class="container">
+  <div class="card-image">
+    <img [src]="card.download_url" [alt]="card.description" />
+  </div>
+  <div class="card-content">
+    <h2>Card Detail</h2>
+    <p class="author">Photo taken by {{ card.author }}</p>
+    <p class="description">Description: {{ card.description }}</p>
+    <p>
+      <a class="btn btn-external" [href]="card.url" rel="noopener noreferrer"
+        >See the original image</a
+      >
+    </p>
+    <a class="btn" [routerLink]="['/']">Go back</a>
+  </div>
+</section>

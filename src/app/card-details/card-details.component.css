@@ -1,0 +1,32 @@
+section {
+  min-height: calc(50vh - 50px);
+}
+
+@media (min-width: 750px) {
+  section {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.author {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #767676;
+}
+
+img {
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}

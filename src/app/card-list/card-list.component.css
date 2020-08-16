@@ -1,0 +1,27 @@
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+  margin-bottom: 4rem;
+}
+
+.card {
+  height: 100%;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.card-content {
+  padding: 1.5rem;
+}
+
+.description {
+  font-size: 1.2rem;
+}
+
+.user {
+  font-size: 0.95rem;
+  color: #747475;
+}

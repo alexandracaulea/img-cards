@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-color: #f7fafc;
+  color: #2d3748;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+  width: 350px;
+}
+
+.btn {
+  font-size: 1rem;
+  color: #38b2ac;
+}
+
+.btn-external {
+  color: #4299e1;
+}
+
+.container {
+  width: 85%;
+  max-width: 1000px;
+  margin: 0 auto;
+}

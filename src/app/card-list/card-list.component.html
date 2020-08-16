@@ -1,0 +1,10 @@
+<section class="container">
+  <div *ngFor="let card of cards; index as cardId" class="card">
+    <img [src]="card.download_url" [alt]="card.description" />
+    <div class="card-content">
+      <h2 class="description">{{ card.description }}</h2>
+      <p class="user">{{ card.username }}</p>
+      <a class="btn" [routerLink]="['/card', cardId]">Image details</a>
+    </div>
+  </div>
+</section>
