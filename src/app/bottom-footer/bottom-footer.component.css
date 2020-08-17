@@ -1,5 +1,5 @@
 footer {
-  margin-top: 3rem;
+  margin-top: 4rem;
   padding: 1rem;
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.08);
 }
@@ -7,4 +7,11 @@ footer {
 p {
   font-size: 0.8rem;
   color: #111;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #a94e76;
+  border-bottom: 1px dashed #a94e76;
 }
