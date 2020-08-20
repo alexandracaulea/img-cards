@@ -1,6 +1,12 @@
 <section class="container">
   <div class="card-image">
-    <img [src]="card.download_url" [alt]="card.description" />
+    <img
+      [src]="card.download_url"
+      [alt]="card.description"
+      loading="lazy"
+      width="350"
+      height="215"
+    />
   </div>
   <div class="card-content">
     <h2>Card Detail</h2>
