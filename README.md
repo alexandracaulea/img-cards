@@ -23,3 +23,9 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Further information
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
+
+## Live Example
+
+Check out the project: https://img-cards.netlify.app/
+
+![Image cards project](image-cards.gif)
